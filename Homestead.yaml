@@ -1,0 +1,27 @@
+ip: "192.168.33.10"
+memory: 1024
+name: "Ubuntu Server"
+service: apache
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+#folders:
+#    - map: ../demo1
+#      to: /var/www/demo1
+#    - map: ../demo2
+#      to: /var/www/demo2
+#sites:
+#  - map: demo1.app
+#    to: /var/www/demo1
+#  - map: demo2.app
+#    to: /var/www/demo2/public
+
+# Database Management System
+DBMS:
+    - mariadb
+
+databases:
+    - base_wp
