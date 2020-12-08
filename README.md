@@ -14,21 +14,25 @@ Use Vagrant to init virtualbox
 cd vagrant_ubuntu
 vagrant up
 ```
-You can try to $ ping 192.168.33.10 from your host 
+You can try to <span style="color:#22863a">$ ping 192.168.33.10</span> from your host 
 
 #### Vagrant provision
 Run the command `vagrant provision` within terminal or your command prompt within the folder where homestead files are located.
+
 Another equivalent command is `vagrant up --provision` this will provision the vagrant machine as well as run it.
+
 
 #### SSH
 ```
 vagrant ssh
 ```
 
+
 #### Halt
 ```
 vagrant halt
 ```
+
 
 #### Destroy
 ```
